@@ -1,4 +1,18 @@
+.container01-grid{
+    background-color: coral;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    grid-template: repeat(2 , 1fr) / repeat(2 , 1fr);
+    padding: 10px;
+}
 
+.container01-grid article{
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
 .item1{
     grid-area: header;
 }
