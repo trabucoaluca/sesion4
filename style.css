@@ -1,3 +1,18 @@
+.container01-grid{
+    background-color: cadetblue;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 330px); */
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.container01-grid article{
+    background-color: chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
 
 .item1{
     grid-area: header;
