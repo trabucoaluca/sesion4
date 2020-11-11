@@ -1,105 +1,27 @@
-
-.item1{
-    grid-area: header;
-}
-
-.item2{
-    grid-area: menu;
-}
-
-.item3{
-    grid-area: main;
-}
-
-.item4{
-    grid-area: right;
-}
-
-.item5{
-    grid-area: footer;
-}
-
-.grid-container{
+.container-principal{
+    background-color: cornflowerblue;
     display: grid;
-    grid-template-areas: 
-    'header header header header'
-    'main main right menu'
-    'footer footer footer footer'
-    ;
-    gap: 10px;
-    background-color: rgb(96, 175, 185);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 10px;
+    gap: 5px;
+}
+
+.container-principal-card{
+    background-color: cornsilk;
+    margin: 10px;
+    display: flex;
     padding: 10px;
 }
 
-.grid-container > div{
-    background-color: rgba(26, 31, 32, 0.8);
-    text-align: center;
-    color: azure;
-    padding: 20px 0;
-    font-size: 30px;
-    height: 400px;
-}
-.container-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.container-grid article{
-    background-color: blueviolet;
-    height: 300px;
-    margin: 20px;
-    border-radius: 5px;
-}
-
-.features{
-    display: grid;
-    /* grid-template-columns: repeat(4, 300px); */
-    grid-template-columns: 1fr 1fr;
-}
-
-.features article{
-    background-color: aqua;
+.container-contenido{
+    background-color: crimson;
     margin: 10px;
-    width: 40%;
-    height: 50px;
-}
-
-
-.container{
-    display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    /* align-items: flex-start; */
-    /* align-content: space-around; */
-    /* flex-flow: row wrap; */
+    padding: 10px;
     width: 400px;
     height: 400px;
-    background-color: rgb(107, 131, 150);
 }
 
-.item{
-    background-color: aqua;
-    width: 40px;
-    height: 50px;
-}
-
-.container-maquetacion{
-    /* background-color:yellowgreen; */
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.container-maquetacion article{
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 250px;
-    padding: 30px;
-}
-
-.container-maquetacion article img{
-    width: 76px;
-    height: 120px;
+.container-imagen img{
+    width: 500px;
+    
 }
