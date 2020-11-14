@@ -11,17 +11,53 @@
     margin: 10px;
     display: flex;
     padding: 10px;
+    align-items: center;
+}
+.container-principal-card > *{
+    width: 30%;
 }
 
 .container-contenido{
     background-color: crimson;
     margin: 10px;
     padding: 10px;
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    border-radius: 15px;
 }
 
-.container-imagen img{
-    width: 500px;
-    
+.container-contenido div{
+    align-self: center;
+}
+
+.container-imagen{
+    /* background-color: cyan; */
+    width: 100%;
+    padding: 0;
+}
+
+#imagen1{
+    /* 782x514 */
+    /*391x297 */
+    /* 195x148 */
+    width: 586px;
+    height: 453px;
+}
+
+#imagen2{
+    width: auto;
+    height: 500px;
+}
+
+#imagen3{
+    width: 450px;
+    height: 500px;
+}
+
+#imagen4{
+    width: 586px;
+    height: 453px;
 }
